@@ -1,0 +1,4 @@
+services:
+#    sgv3_sales.example:
+#        class: Exxan\Sgv3\SalesHubBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

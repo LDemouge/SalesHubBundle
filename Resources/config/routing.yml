@@ -1,0 +1,44 @@
+sgv3_sales_homepage:
+    path:     /
+    defaults: { _controller: Sgv3SalesBundle:Default:index }
+    
+sgv3_sales_invoicing:
+    path: /invoicing
+    defaults: { _controller: Sgv3SalesBundle:Invoicing:index }
+    
+sgv3_sales_inv_for:
+    path: /invoicing/forecast
+    defaults: { _controller: Sgv3SalesBundle:Invoicing:forecast }
+    
+sgv3_sales_inv_for_signed:
+    path: /invoicing/forecast-signed
+    defaults: { _controller: Sgv3SalesBundle:Invoicing:forecastSigned}
+    
+sgv3_sales_inv_for_unsigned:
+    path: /invoicing/forecast-unsigned
+    defaults: { _controller: Sgv3SalesBundle:Invoicing:forecastUnsigned}
+    
+sgv3_sales_inv_due:
+    path: /invoicing/due
+    defaults: { _controller: Sgv3SalesBundle:Invoicing:due}
+    
+sgv3_sales_inv_disputed:
+    path: /invoicing/disputed
+    defaults: { _controller: Sgv3SalesBundle:Invoicing:disputed}
+    
+sgv3_sales_performances:
+    path: /performances
+    defaults: { _controller: Sgv3SalesBundles:Performances:index}
+    
+sgv3_sales_perf_new:
+    path: /performance/add
+    defaults: { _controller: Sgv3SalesBundles:Performances:add}
+    
+sgv3_sales_perf_show:
+    path: /performance/{id}/show
+    defaults: { _controller: Sgv3SalesBundles:Performances:show}
+    
+sgv3_sales_prospecting:
+    path: /prospecting
+    defaults: { _controller: Sgv3SalesBundle:Propecting:index }
+    
